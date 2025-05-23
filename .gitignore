@@ -1,0 +1,81 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+.env
+.env.*          # Ignore env-specific files (e.g. .env.production)
+
+# Build output
+dist/
+build/
+public/build/
+.vuepress/dist/
+
+# Optional cache
+.cache/
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+*.lcov
+
+# Database dumps / local data
+dump.rdb
+*.sqlite
+*.sql
+*.bak
+*.gz
+*.tar
+
+# Logs from Mongo or MySQL (if exported)
+*.log
+mongodb.log
+mysql-bin.*
+
+# Other temp files
+tmp/
+temp/
+*.tmp
+*.swp
+
+# Docker
+docker-compose.override.yml
+.env.docker
+.env.local
+
+# Git hooks & local scripts
+.husky/_/
+scripts/local/
+
+# VS C
